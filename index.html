@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service SMM - Reactions Facebook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1877f2 0%, #0d47a1 100%);
+        }
+        .reaction-btn {
+            transition: all 0.3s ease;
+        }
+        .reaction-btn:hover {
+            transform: translateY(-5px);
+        }
+        .input-field:focus {
+            box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.2);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fab fa-facebook text-4xl mr-3"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">SMM Reactions</h1>
+                        <p class="text-sm opacity-80">Service professionnel de réactions Facebook</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#contact" class="bg-white text-blue-600 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition">
+                        <i class="fab fa-whatsapp mr-2"></i>Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Augmentez vos réactions Facebook rapidement</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Obtenez des likes, loves, haha et autres réactions sur vos publications en quelques minutes seulement!</p>
+            
+            <div class="bg-white rounded-lg shadow-xl p-6 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Comment ça marche?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-edit text-blue-600 text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">1. Remplissez le formulaire</h4>
+                        <p class="text-gray-600 text-sm">Choisissez le type et le nombre de réactions</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-money-bill-wave text-blue-600 text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">2. Effectuez le paiement</h4>
+                        <p class="text-gray-600 text-sm">Paiement via Mobile Money (033 82 723 07)</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-thumbs-up text-blue-600 text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">3. Recevez vos réactions</h4>
+                        <p class="text-gray-600 text-sm">Livraison en 15 min à 1 heure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Nos Tarifs</h2>
+            <p class="text-center text-gray-600 mb-8">Prix compétitifs pour des résultats rapides</p>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-blue-50 rounded-lg p-6 mb-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">1 000 réactions</h3>
+                            <p class="text-gray-600">Idéal pour booster vos publications</p>
+                        </div>
+                        <div class="mt-4 md:mt-0">
+                            <span class="text-3xl font-bold text-blue-600">3 000 Ar</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Plus de 2 000 réactions?</h3>
+                            <p class="text-gray-600">Tarifs spéciaux pour les grandes quantités</p>
+                        </div>
+                        <div class="mt-4 md:mt-0">
+                            <a href="#contact" class="bg-yellow-500 text-white px-6 py-2 rounded-full font-medium hover:bg-yellow-600 transition">
+                                Contactez-nous
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-sm text-yellow-700 mt-3 text-center md:text-left"><i class="fas fa-info-circle mr-1"></i> Contactez-nous directement pour les commandes de plus de 2 000 réactions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="py-12 bg-gray-50" id="order">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Commander maintenant</h2>
+            <p class="text-center text-gray-600 mb-8">Remplissez ce formulaire pour passer votre commande</p>
+            
+            <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+                <form id="orderForm" class="p-6">
+                    <!-- Reaction Type -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-medium mb-2">Type de réaction</label>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <button type="button" class="reaction-btn bg-blue-100 text-blue-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('like')">
+                                <i class="fas fa-thumbs-up text-2xl mb-1"></i>
+                                <span>Like</span>
+                            </button>
+                            <button type="button" class="reaction-btn bg-red-100 text-red-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('love')">
+                                <i class="fas fa-heart text-2xl mb-1"></i>
+                                <span>Love</span>
+                            </button>
+                            <button type="button" class="reaction-btn bg-yellow-100 text-yellow-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('haha')">
+                                <i class="fas fa-laugh-squint text-2xl mb-1"></i>
+                                <span>Haha</span>
+                            </button>
+                            <button type="button" class="reaction-btn bg-purple-100 text-purple-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('wow')">
+                                <i class="fas fa-surprise text-2xl mb-1"></i>
+                                <span>Wow</span>
+                            </button>
+                            <button type="button" class="reaction-btn bg-gray-100 text-gray-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('sad')">
+                                <i class="fas fa-sad-tear text-2xl mb-1"></i>
+                                <span>Sad</span>
+                            </button>
+                            <button type="button" class="reaction-btn bg-orange-100 text-orange-600 p-3 rounded-lg flex flex-col items-center" onclick="selectReaction('angry')">
+                                <i class="fas fa-angry text-2xl mb-1"></i>
+                                <span>Angry</span>
+                            </button>
+                        </div>
+                        <input type="hidden" id="reactionType" name="reactionType" required>
+                    </div>
+                    
+                    <!-- Quantity -->
+                    <div class="mb-6">
+                        <label for="quantity" class="block text-gray-700 font-medium mb-2">Nombre de réactions</label>
+                        <select id="quantity" name="quantity" class="input-field w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" required>
+                            <option value="" disabled selected>Choisissez une quantité</option>
+                            <option value="100">100 réactions</option>
+                            <option value="500">500 réactions</option>
+                            <option value="1000">1 000 réactions (3 000 Ar)</option>
+                            <option value="2000">2 000 réactions</option>
+                            <option value="custom">Autre quantité</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Custom Quantity -->
+                    <div class="mb-6 hidden" id="customQuantityContainer">
+                        <label for="customQuantity" class="block text-gray-700 font-medium mb-2">Quantité personnalisée</label>
+                        <input type="number" id="customQuantity" name="customQuantity" min="100" class="input-field w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Entrez le nombre de réactions">
+                    </div>
+                    
+                    <!-- Facebook Link -->
+                    <div class="mb-6">
+                        <label for="fbLink" class="block text-gray-700 font-medium mb-2">Lien de la publication Facebook</label>
+                        <input type="url" id="fbLink" name="fbLink" class="input-field w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" placeholder="https://www.facebook.com/..." required>
+                    </div>
+                    
+                    <!-- Payer Name -->
+                    <div class="mb-6">
+                        <label for="payerName" class="block text-gray-700 font-medium mb-2">Votre nom</label>
+                        <input type="text" id="payerName" name="payerName" class="input-field w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Nom du payeur" required>
+                    </div>
+                    
+                    <!-- Payment Info -->
+                    <div class="mb-6 bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-800 mb-2">Informations de paiement</h3>
+                        <p class="text-blue-700 mb-2"><i class="fas fa-mobile-alt mr-2"></i> Mobile Money: <span class="font-bold">033 82 723 07</span></p>
+                        <p class="text-sm text-blue-600"><i class="fas fa-info-circle mr-1"></i> Votre commande ne sera traitée qu'après confirmation du paiement sur ce numéro uniquement.</p>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full gradient-bg text-white py-3 px-4 rounded-lg font-bold hover:opacity-90 transition">
+                        <i class="fas fa-paper-plane mr-2"></i> Envoyer la commande
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Questions fréquentes</h2>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition font-medium flex justify-between items-center">
+                        <span>Combien de temps pour recevoir les réactions?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer p-4 border-t border-gray-200 hidden">
+                        <p class="text-gray-600">Les réactions commencent à arriver généralement entre 15 minutes et 1 heure après confirmation de votre paiement. La livraison complète peut prendre jusqu'à 24 heures pour les grandes quantités.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition font-medium flex justify-between items-center">
+                        <span>Puis-je être remboursé si ça ne fonctionne pas?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer p-4 border-t border-gray-200 hidden">
+                        <p class="text-gray-600">Oui, si les réactions ne sont pas livrées comme promis, nous effectuons un remboursement complet. Veuillez nous contacter dans les 48 heures suivant votre commande si vous rencontrez des problèmes.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition font-medium flex justify-between items-center">
+                        <span>Est-ce que c'est sûr pour mon compte Facebook?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer p-4 border-t border-gray-200 hidden">
+                        <p class="text-gray-600">Absolument. Nous utilisons des méthodes naturelles qui ne nécessitent pas votre mot de passe Facebook. Il n'y a aucun risque pour votre compte.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition font-medium flex justify-between items-center">
+                        <span>Pourquoi dois-je payer uniquement sur le 033 82 723 07?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-answer p-4 border-t border-gray-200 hidden">
+                        <p class="text-gray-600">C'est notre numéro officiel de paiement. Tout paiement effectué sur un autre numéro ne sera pas reconnu et votre commande ne sera pas traitée. Cela nous permet de garantir la sécurité des transactions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-12 bg-gray-50" id="contact">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Contactez-nous</h2>
+            <p class="text-center text-gray-600 mb-8">Des questions? Nous sommes là pour vous aider</p>
+            
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Par WhatsApp</h3>
+                    <a href="https://wa.me/261338272307" class="bg-green-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-600 transition inline-flex items-center">
+                        <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                        <span>Envoyer un message</span>
+                    </a>
+                    <p class="text-gray-600 mt-4"><i class="fas fa-phone-alt mr-2"></i> 033 82 723 07</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Informations importantes</h3>
+                    <div class="space-y-3">
+                        <p class="text-gray-600"><i class="fas fa-exclamation-circle text-yellow-500 mr-2"></i> Paiement uniquement sur le 033 82 723 07</p>
+                        <p class="text-gray-600"><i class="fas fa-clock text-blue-500 mr-2"></i> Heures d'ouverture: 8h - 20h tous les jours</p>
+                        <p class="text-gray-600"><i class="fas fa-shield-alt text-green-500 mr-2"></i> Service 100% sécurisé et confidentiel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">SMM Reactions</h3>
+                    <p class="text-gray-400">Service professionnel de réactions Facebook</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 SMM Reactions. Tous droits réservés.</p>
+                <p class="text-sm mt-2">Ce service est indépendant et n'est pas affilié à Facebook.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Select reaction type
+        function selectReaction(type) {
+            document.getElementById('reactionType').value = type;
+            
+            // Remove all active classes
+            document.querySelectorAll('.reaction-btn').forEach(btn => {
+                btn.classList.remove('ring-2', 'ring-blue-500');
+            });
+            
+            // Add active class to clicked button
+            event.currentTarget.classList.add('ring-2', 'ring-blue-500');
+        }
+        
+        // Show/hide custom quantity field
+        document.getElementById('quantity').addEventListener('change', function() {
+            const customContainer = document.getElementById('customQuantityContainer');
+            if (this.value === 'custom') {
+                customContainer.classList.remove('hidden');
+                document.getElementById('customQuantity').required = true;
+            } else {
+                customContainer.classList.add('hidden');
+                document.getElementById('customQuantity').required = false;
+            }
+        });
+        
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+        
+        // Form submission
+        document.getElementById('orderForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const reactionType = document.getElementById('reactionType').value;
+            const quantity = document.getElementById('quantity').value === 'custom' 
+                ? document.getElementById('customQuantity').value 
+                : document.getElementById('quantity').value;
+            const fbLink = document.getElementById('fbLink').value;
+            const payerName = document.getElementById('payerName').value;
+            
+            // Validate form
+            if (!reactionType || !quantity || !fbLink || !payerName) {
+                alert('Veuillez remplir tous les champs obligatoires');
+                return;
+            }
+            
+            // Show success message
+            alert(`Commande envoyée avec succès!\n\nType: ${reactionType}\nQuantité: ${quantity}\nLien: ${fbLink}\n\nVeuillez effectuer le paiement sur le 033 82 723 07 pour confirmer votre commande.`);
+            
+            // Reset form
+            this.reset();
+            document.querySelectorAll('.reaction-btn').forEach(btn => {
+                btn.classList.remove('ring-2', 'ring-blue-500');
+            });
+            document.getElementById('customQuantityContainer').classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
